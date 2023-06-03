@@ -1,0 +1,77 @@
+body {
+    
+        font-family: Arial, sans-serif;
+        background-image: url("Untitled\ design.jpg");
+        background: size 100% auto;
+        background-size: cover;
+        
+        color: #fff;
+}
+    
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #00FFFF;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00FFFF;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0000;
+    color: #fff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
+    color: #00FFFF;
+    background-color: 	#000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:	#000000;
+    
+}
+
+button:active {
+    background-color:	#000000;
+}
+.rac {
+    background-color:#000000;
+    background-size: cover;
+    display: inline;
+    color:#00FFFF;
+    text-align:end;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 5px 0;
+  }
